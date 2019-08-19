@@ -4,6 +4,9 @@ if(sprite_Follow){
 }
 //Is mouse pressed
 if(mouse_check_button_pressed(mb_left)){
+	//Moving mouse to clicked location
+	x = mouse_x;
+	y = mouse_y;
 	sprite_Follow = false;
 	object_Clicked = instance_place(x,y,all);
 	//Check if instance clicked is something that needs red curser  to be shown ex.(NPC, Button, ore)

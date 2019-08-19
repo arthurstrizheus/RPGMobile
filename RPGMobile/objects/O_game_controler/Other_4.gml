@@ -1,0 +1,1 @@
+ds_map_replace(save_Data, "Current Room", room_get_name(room));
